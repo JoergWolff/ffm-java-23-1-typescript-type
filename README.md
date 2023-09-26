@@ -13,9 +13,9 @@ In dieser Aufgabenstellung geht es darum, den Typ "Student" in TypeScript zu def
 Highlightet die Ausgabe der Vor- und Nachnamen, des Alters und der Noten durch eine Zeile mit 30x "=".
 Beispiel:
 
-Anton Meier (17)
-==============================
-Noten: 1,4,3,1,3,2,1,2
+    Anton Meier (17)
+    ==============================
+    Noten: 1,4,3,1,3,2,1,2
 
 
 
@@ -27,11 +27,11 @@ stellt sicher, dass neben den Noten als Zahlen (deutsches System) auch Werte A b
 
 Beispiel:
 
-Anton Meier (17)
-==============================
+    Anton Meier (17)
+    ==============================
 
-Noten:
-A,2,F,3,1,B,2,5
+    Noten:
+    A,2,F,3,1,B,2,5
 
 
 
@@ -43,11 +43,11 @@ stellt sicher, dass nun auch "undefined" als Wert in den Noten unterstützt wird
 
 Beispiel:
 
-Anton Meier (17)
-===========================
+    Anton Meier (17)
+    ===========================
 
-Noten:
-A,2,*,3,1,B,*,5
+    Noten:
+    A,2,*,3,1,B,*,5
 
 
 
@@ -59,19 +59,19 @@ schreibt eine Funktion, die eine Liste mit allen Studenten in der Konsole ausgib
 
 Beispiel
 
-Anton Meier (16)
-===========================
-Noten: 1,4,3,1,A,*,1,2
+    Anton Meier (16)
+    ===========================
+    Noten: 1,4,3,1,A,*,1,2
 
 
-Berta Müller (17)
-===========================
-Noten: A,*,1
+    Berta Müller (17)
+    ===========================
+    Noten: A,*,1
 
 
-Cäsar Schmidt (17)
-==========================
-Noten: A,1,*, 3,2,4,5
+    Cäsar Schmidt (17)
+    ==========================
+    Noten: A,1,*, 3,2,4,5
 
 
 ## Bonus
@@ -86,19 +86,19 @@ Wow, ihr seid schnell! Wenn ihr mögt, bearbeitet zusätzlich diese freiwillige 
 schreibt eine Funktion, die die Namen der Studenten mit "=====" hervorhebt. Dabei soll für jeden Character im Eintrag genau so viele "="-Zeichen verwendet werden wie für den Namen und das Alter des Studenten benötigt werden.
 Beispiel
 
-Anton Meier (16)
-===================
-Noten: 1,4,3,1,A,*,1,2
+    Anton Meier (16)
+    ===================
+    Noten: 1,4,3,1,A,*,1,2
 
 
-Berta Müller (17)
-==================
-Noten: A,*,1
+    Berta Müller (17)
+    ==================
+    Noten: A,*,1
 
 
-Cäsar Schmidt (17)
-=============== 
-Noten: A,1,* , 3,2,4,5
+    Cäsar Schmidt (17)
+    =============== 
+    Noten: A,1,* , 3,2,4,5
 
 
 
@@ -108,13 +108,13 @@ Noten: A,1,* , 3,2,4,5
 
 strukturiert den Studenten und das Zeugnis so um, dass Noten bestimmten Fächern zugeordnet werden können. Anschließend soll der Student mit den entsprechenden Noten pro Fach formatiert ausgegeben werden.
 
-Florian Weber (14)
-==============
+    Florian Weber (14)
+    ==============
 
-Noten:
-Sport: A,1,*
-Kunst: 3,2,4,5
-Mathe: 1,2,A
+    Noten:
+    Sport: A,1,*
+    Kunst: 3,2,4,5
+    Mathe: 1,2,A
 
 
 
