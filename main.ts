@@ -65,7 +65,7 @@ let anton3: NewStudent = {
 }
 
 function getNewNotesByStudent(student: NewStudent) {
-    console.log(student.name + " " + student.lastname + "(" + student.age + ")")
+    console.log("\n\n" + student.name + " " + student.lastname + "(" + student.age + ")")
     console.log("=".repeat(30))
     console.log(" Noten:")
     console.log(student.notes.map(element => element.note?element.note:"*").join())
@@ -101,3 +101,6 @@ let student3: NewStudent = {
 students.push(student1)
 students.push(student2)
 students.push(student3)
+
+console.log("\n\n****Students***")
+students.map(student => getNewNotesByStudent(student))
