@@ -87,17 +87,17 @@ schreibt eine Funktion, die die Namen der Studenten mit "=====" hervorhebt. Dabe
 Beispiel
 
     Anton Meier (16)
-    ===================
+    ================
     Noten: 1,4,3,1,A,*,1,2
 
 
     Berta Müller (17)
-    ==================
+    =================
     Noten: A,*,1
 
 
     Cäsar Schmidt (17)
-    =============== 
+    ================== 
     Noten: A,1,* , 3,2,4,5
 
 
